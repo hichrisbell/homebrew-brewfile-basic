@@ -1,0 +1,34 @@
+# Readme
+# To install these applications or bring them all to the latest version,
+# copy the Brewfile to your Document folder and call the following command:
+# brew bundle --file ~/Documents/Brewfile-basic
+# brew bundle install
+
+# Install third-party repositories
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+
+# Install packages
+brew "git"
+brew "mas"
+
+# Essentials
+cask "1password"
+cask "archiver"
+cask "arq"
+cask "daisydisk"
+cask "evernote"
+cask "expressvpn"
+cask "spotify"
+cask "sublime-text"
+# cask "firefox"
+# cask "google-chrome"
+
+# Create
+cask "libreoffice"
+mas "Affinity Photo", id: 824183456
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
